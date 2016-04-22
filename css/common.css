@@ -1,0 +1,83 @@
+html, body
+{
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+	font-family: Arial, Helvetica, "微軟正黑體", "Microsoft JhengHei", "Heiti TC", "LiHei Pro", "新細明體", PMingLiU, sans-serif;
+	font-size: 12px;
+	line-height: 1.3em;
+	-webkit-text-size-adjust: none;
+}
+
+body, input, textarea{
+	font-family: Arial, Helvetica, "微軟正黑體", "Microsoft JhengHei", "Heiti TC", "LiHei Pro", "新細明體", PMingLiU, sans-serif;
+}
+
+sup, sub {
+	font-size: smaller;
+   	vertical-align: baseline;
+	position: relative;
+	top: -0.4em;
+}
+sub { 
+	top: 0.4em;
+}
+
+#debug
+{
+	color: #ff0000;
+	left: 0;
+	position: fixed;
+	top: 0;
+}
+
+.clear
+{
+	clear: both;
+}
+
+.clearFix
+{
+	zoom:1;
+}
+.clearFix:after 
+{ 
+	clear:both;
+	display:block; 
+	visibility:hidden;
+	height:0; 
+	line-height:0; 
+	content:"";
+}
+
+.block
+{
+	display: block;
+}
+
+.inlineBlock
+{
+	display: inline-block;
+}
+
+.hide
+{
+	display: none;
+}
+
+/************************* COMMON ****************************/
+
+.wrapper, .main
+{
+	position: relative;
+	width: 100%;
+	min-width: 810px;
+	overflow: visible;
+}
+
+.content
+{
+	color: #555;
+	margin: 0 auto;
+	background-color: #fff;
+}
