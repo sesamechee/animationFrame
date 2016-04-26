@@ -9,3 +9,6 @@
     	reverse: false,
     	delay: 0
     });
+
+## Background Image Demo
+![github](https://raw.githubusercontent.com/sesamechee/animationFrame/master/images/btnBookOnline.png "github")
